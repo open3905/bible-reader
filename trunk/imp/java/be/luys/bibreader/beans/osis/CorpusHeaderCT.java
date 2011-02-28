@@ -7,10 +7,16 @@ package be.luys.bibreader.beans.osis;
  * @author fks/el
  * 
  */
-public class OsisCorpusHeaderCT
+public class CorpusHeaderCT
 {
-    private RevisionDescCT revisionDesc;
-    private WorkCT work;
+    /**
+     * 0 - ...
+     */
+    private RevisionDescCT[] revisionDesc;
+    /**
+     * 1 - ...
+     */
+    private WorkCT[] work;
     private boolean canonical;
     private static final String TEIform = "teiHeader";
 }

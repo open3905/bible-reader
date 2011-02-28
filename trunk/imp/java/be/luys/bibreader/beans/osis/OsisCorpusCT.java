@@ -9,8 +9,17 @@ package be.luys.bibreader.beans.osis;
  */
 public class OsisCorpusCT
 {
-    private OsisCorpusHeaderCT header;
+    /**
+     * 0 - 1
+     */
+    private CorpusHeaderCT header;
+    /**
+     * 0 - 1
+     */
     private TitlePageCT titlePage;
-    private OsisTextCT osisText;
+    /**
+     * 1 - ..
+     */
+    private OsisTextCT[] osisText;
     private static final String TEIform = "teiCorpus.2";
 }
