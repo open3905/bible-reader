@@ -9,8 +9,17 @@ package be.luys.bibreader.beans.osis;
  */
 public class OsisTextCT
 {
+    /**
+     * 1
+     */
     private HeaderCT header;
+    /**
+     *  0 - 1
+     */
     private TitlePageCT titlePage;
+    /**
+     * 0 - ...
+     */
     private DivCT div;
     private AnnotateRefType annotateRef;
     private boolean canonical;
