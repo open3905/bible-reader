@@ -24,7 +24,7 @@ public class DivCT extends Milestoneable
     private IndexCT[] index;
     private InscriptionCT[] inscription;
     private LbCT[] lb;
-    private LgCT[] lc;
+    private LgCT[] lg;
     private ListCT[] list;
     private MentionedCT[] mentioned;
     private MilestoneCT[] milestone;
@@ -45,7 +45,7 @@ public class DivCT extends Milestoneable
     private TableCT[] table;
     private final String tEIform = "div";
     private TitleCT[] title;
-    private TitlePageCT[] titlePage;
+    private TitlePageCT titlePage;
     private TransChangeCT[] transChange;
     private DivType type;
     private VerseCT[] verse;
@@ -163,13 +163,6 @@ public class DivCT extends Milestoneable
         return this.lb;
     }
 
-    /**
-     * @return the lc
-     */
-    public LgCT[] getLc()
-    {
-        return this.lc;
-    }
 
     /**
      * @return the list
@@ -334,7 +327,7 @@ public class DivCT extends Milestoneable
     /**
      * @return the titlePage
      */
-    public TitlePageCT[] getTitlePage()
+    public TitlePageCT getTitlePage()
     {
         return this.titlePage;
     }
@@ -499,13 +492,6 @@ public class DivCT extends Milestoneable
         this.lb = lb;
     }
 
-    /**
-     * @param lc the lc to set
-     */
-    public void setLc(final LgCT[] lc)
-    {
-        this.lc = lc;
-    }
 
     /**
      * @param list the list to set
@@ -662,7 +648,7 @@ public class DivCT extends Milestoneable
     /**
      * @param titlePage the titlePage to set
      */
-    public void setTitlePage(final TitlePageCT[] titlePage)
+    public void setTitlePage(final TitlePageCT titlePage)
     {
         this.titlePage = titlePage;
     }
@@ -697,5 +683,21 @@ public class DivCT extends Milestoneable
     public void setW(final WCT[] w)
     {
         this.w = w;
+    }
+
+    /**
+     * @return the lg
+     */
+    public LgCT[] getLg()
+    {
+        return lg;
+    }
+
+    /**
+     * @param lg the lg to set
+     */
+    public void setLg(LgCT[] lg)
+    {
+        this.lg = lg;
     }
 }
