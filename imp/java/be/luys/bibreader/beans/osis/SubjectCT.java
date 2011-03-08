@@ -9,5 +9,8 @@ package be.luys.bibreader.beans.osis;
  */
 public class SubjectCT
 {
-
+    private String value;
+    private boolean canonical;
+    private SubjectType type;
+    private GlobalWithoutType globalWithoutType;
 }

@@ -10,4 +10,20 @@ package be.luys.bibreader.beans.osis;
 public class AnnotateRefType
 {
     private OsisAnnotateRefType[] types;
+
+    /**
+     * @return the types
+     */
+    public OsisAnnotateRefType[] getTypes()
+    {
+        return types;
+    }
+
+    /**
+     * @param types the types to set
+     */
+    public void setTypes(OsisAnnotateRefType[] types)
+    {
+        this.types = types;
+    }
 }
