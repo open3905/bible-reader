@@ -5,9 +5,9 @@ package be.luys.bibreader.beans.osis;
 
 /**
  * @author fks/el
- *
+ * 
  */
-public class TableRole
+public enum TableRole
 {
-
+    label, data
 }

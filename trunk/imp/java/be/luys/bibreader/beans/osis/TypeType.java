@@ -9,5 +9,6 @@ package be.luys.bibreader.beans.osis;
  */
 public class TypeType
 {
-    
+    private OsisType type;
+    private AttributeExtension extension;
 }
